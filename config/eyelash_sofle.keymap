@@ -134,7 +134,7 @@
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                           &trans                  &trans  &trans  &trans  &trans  &trans  &kp DELETE
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans                  &trans  &trans  &trans  &trans  &trans  &none
+&kp M   &trans  &trans  &trans  &trans  &trans                           &trans                  &trans  &trans  &trans  &trans  &trans  &none
 &mt LSHIFT ESC  &trans  &trans  &trans  &trans  &trans                           &trans                  &trans  &trans  &trans  &trans  &trans  &none
 &kp O  &trans  &trans  &trans  &trans  &trans                           &trans                  &trans  &trans  &trans  &trans  &trans  &none
 &trans  &kp DOT  &kp HOME  &kp LEFT_ALT  &ctrl_layer5  &mo 6          &trans                  &trans  &trans  &trans  &trans  &to 0
