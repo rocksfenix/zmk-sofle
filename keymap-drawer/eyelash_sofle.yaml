@@ -406,10 +406,10 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+K
-  - Ctl+A
-  - Ctl+L
-  - Ctl+B
+  - '&ctrl_k'
+  - '&ctrl_a'
+  - '&ctrl_l'
+  - '&ctrl_b'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -418,11 +418,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - Ctl+Z
-  - Ctl+G
-  - Ctl+I
+  - '&ctrl_z'
+  - '&ctrl_g'
+  - '&ctrl_i'
   - H
-  - Ctl+D
+  - '&ctrl_d'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -430,12 +430,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+U
-  - Ctl+M
-  - Ctl+S
+  - '&ctrl_u'
+  - '&ctrl_m'
+  - '&ctrl_s'
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+V
-  - Ctl+Y
+  - '&ctrl_v'
+  - '&ctrl_y'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
