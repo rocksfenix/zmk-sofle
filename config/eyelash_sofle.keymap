@@ -65,6 +65,149 @@
             tapping-term-ms = <200>;
             bindings = <&kp N>, <&n_alt_gr>;
         };
+
+        ctrl_v: ctrl_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp V>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_k: ctrl_k {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp K>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_a: ctrl_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp A>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_l: ctrl_l {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp L>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_b: ctrl_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp B>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_z: ctrl_z {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp Z>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_g: ctrl_g {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp G>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_i: ctrl_i {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp I>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_d: ctrl_d {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp D>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_u: ctrl_u {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp U>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_m: ctrl_m {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp M>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_s: ctrl_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp S>
+                , <&macro_release &kp LCTRL>;
+        };
+
+        ctrl_y: ctrl_y {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <0>;
+            tap-ms = <10>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&kp Y>
+                , <&macro_release &kp LCTRL>;
+        };
     };
 
     combos {
@@ -160,9 +303,9 @@
         layer_6 {
             bindings = <
 &trans           &trans      &trans      &trans         &trans          &trans                               &trans                                         &trans  &trans  &trans  &trans  &trans  &kp DELETE
-&trans           &trans      &kp LC(K)   &kp LC(A)      &kp LC(L)       &kp LC(B)                            &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
-&mt LSHIFT ESC   &kp LC(Z)   &kp LC(G)   &kp LC(I)      &kp H           &kp LC(D)                            &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
-&kp LC(U)        &kp LC(M)   &kp LC(S)   &trans         &kp LC(V)       &kp LC(Y)                            &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans      &ctrl_k     &ctrl_a        &ctrl_l         &ctrl_b                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&mt LSHIFT ESC   &ctrl_z     &ctrl_g     &ctrl_i        &kp H           &ctrl_d                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&ctrl_u          &ctrl_m     &ctrl_s     &trans         &ctrl_v         &ctrl_y                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &kp DOT     &kp HOME    &kp LEFT_ALT   &ctrl_layer5    &mo 6                                &trans                                         &trans  &trans  &trans  &trans  &to 0
             >;
 
