@@ -317,8 +317,8 @@ layers:
   - {t: ., s: '>'}
   - HOME
   - $$mdi:apple-keyboard-option$$
-  - '&ctrl_layer5'
   - 6 AOE2
+  - '&ctrl_layer5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -382,8 +382,8 @@ layers:
   - {t: ., s: '>'}
   - HOME
   - $$mdi:apple-keyboard-option$$
-  - '&ctrl_layer5'
   - 6 AOE2
+  - '&ctrl_layer5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -447,8 +447,8 @@ layers:
   - {t: ., s: '>'}
   - HOME
   - $$mdi:apple-keyboard-option$$
-  - '&ctrl_layer5'
   - {t: 6 AOE2, type: held}
+  - '&ctrl_layer5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
