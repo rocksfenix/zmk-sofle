@@ -250,9 +250,9 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &mmv MOVE_UP                                       &trans          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp DOUBLE_QUOTES     &kp AMPERSAND      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans                             &mmv MOVE_DOWN                                     &kp TILDE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET          &kp SINGLE_QUOTE      &kp PIPE           &kp QUESTION
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans                             &mmv MOVE_LEFT                                     &kp EQUAL       &kp LEFT_BRACE        &kp RIGHT_BRACE            &kp GRAVE             &kp DOLLAR         &kp EXCLAMATION
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                       &mmv MOVE_UP                                       &trans          &kp LEFT_BRACKET      &kp RIGHT_BRACKET          &kp DOUBLE_QUOTES     &kp AMPERSAND      &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans                             &mmv MOVE_DOWN                                     &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp SINGLE_QUOTE      &kp PIPE           &kp QUESTION
+&trans     &out OUT_USB  &out OUT_BLE    &kp EQUAL     &trans        &trans                             &mmv MOVE_LEFT                                     &kp EQUAL       &kp LEFT_BRACE        &kp RIGHT_BRACE            &kp GRAVE             &kp DOLLAR         &kp EXCLAMATION
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans                             &mmv MOVE_RIGHT                                    &kp AT_SIGN     &kp LESS_THAN         &kp GREATER_THAN           &kp UNDERSCORE        &kp CARET  &trans
 &trans     &trans        &trans          &trans        &trans        &trans                             &mkp LCLK                                          &trans  &trans  &trans      &trans     &trans
             >;
@@ -276,10 +276,10 @@
 
         layer_4 {
             bindings = <
-&trans          &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &kp DELETE
-&kp M           &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &none
-&mt LSHIFT ESC  &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &none
-&kp O           &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &none
+&trans          &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC         &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT       &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp O           &trans   &trans    &trans        &trans        &trans                   &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &kp DOT  &kp HOME  &kp LEFT_ALT  &ctrl_layer5  &mo 6                    &trans                  &trans  &trans  &trans  &trans  &to 0
             >;
 
@@ -289,10 +289,10 @@
 
         layer_5 {
             bindings = <
-&trans         &trans         &trans         &trans         &trans           &trans                                  &trans                        &trans  &trans  &trans  &trans  &trans  &kp DELETE
-&trans         &trans         &kp LC(LS(K))  &kp LC(LS(A))  &kp LC(LS(L))    &kp LC(LS(B))                           &trans                        &trans  &trans  &trans  &trans  &trans  &none
-&mt LSHIFT ESC &kp LC(LS(Z))  &kp LC(LS(G))  &kp LC(LS(I))  &kp LC(LS(H))    &kp LC(LS(D))                           &trans                        &trans  &trans  &trans  &trans  &trans  &none
-&kp LC(LS(U))  &kp LC(LS(M))  &kp LC(LS(S))  &trans         &kp LC(LS(V))    &kp LC(LS(Y))                           &trans                        &trans  &trans  &trans  &trans  &trans  &none
+&trans         &trans         &trans         &trans         &trans           &trans                                  &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC        &trans         &kp LC(LS(K))  &kp LC(LS(A))  &kp LC(LS(L))    &kp LC(LS(B))                           &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT      &kp LC(LS(Z))  &kp LC(LS(G))  &kp LC(LS(I))  &kp LC(LS(H))    &kp LC(LS(D))                           &trans                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LC(LS(U))  &kp LC(LS(M))  &kp LC(LS(S))  &trans         &kp LC(LS(V))    &kp LC(LS(Y))                           &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans         &kp DOT        &kp HOME       &kp LEFT_ALT   &ctrl_layer5     &mo 6                                   &trans                        &trans  &trans  &trans  &trans  &to 0
             >;
 
@@ -302,9 +302,9 @@
 
         layer_6 {
             bindings = <
-&trans           &trans      &trans      &trans         &trans          &trans                               &trans                                         &trans  &trans  &trans  &trans  &trans  &kp DELETE
-&trans           &trans      &ctrl_k     &ctrl_a        &ctrl_l         &ctrl_b                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
-&mt LSHIFT ESC   &ctrl_z     &ctrl_g     &ctrl_i        &kp H           &ctrl_d                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans      &trans      &trans         &trans          &trans                               &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC          &trans      &ctrl_k     &ctrl_a        &ctrl_l         &ctrl_b                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT        &ctrl_z     &ctrl_g     &ctrl_i        &kp H           &ctrl_d                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
 &ctrl_u          &ctrl_m     &ctrl_s     &trans         &ctrl_v         &ctrl_y                              &trans                                         &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &kp DOT     &kp HOME    &kp LEFT_ALT   &ctrl_layer5    &mo 6                                &trans                                         &trans  &trans  &trans  &trans  &to 0
             >;
@@ -313,4 +313,4 @@
             display-name = "6 AOE2";
         };
     };
-};
+}
