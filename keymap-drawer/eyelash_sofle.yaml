@@ -261,7 +261,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   AOE2:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -317,8 +317,8 @@ layers:
   - {t: ., s: '>'}
   - HOME
   - $$mdi:apple-keyboard-option$$
-  - 6 AOE2
   - '&ctrl_layer5'
+  - 6 AOE2
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -326,7 +326,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ROCKSFENIX, h: toggle}
   5 AOE2:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -382,8 +382,8 @@ layers:
   - {t: ., s: '>'}
   - HOME
   - $$mdi:apple-keyboard-option$$
-  - 6 AOE2
   - '&ctrl_layer5'
+  - 6 AOE2
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -391,7 +391,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: ROCKSFENIX, h: toggle}
   6 AOE2:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -447,8 +447,8 @@ layers:
   - {t: ., s: '>'}
   - HOME
   - $$mdi:apple-keyboard-option$$
-  - {t: 6 AOE2, type: held}
   - '&ctrl_layer5'
+  - {t: 6 AOE2, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
