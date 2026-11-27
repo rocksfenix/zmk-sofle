@@ -7,5 +7,7 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # Debe coincidir con la versión de ZMK en config/west.yml (v0.3.0).
+    # Con @main, el workflow espera Zephyr 4.x ("qualifiers") y falla con KeyError.
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
 
